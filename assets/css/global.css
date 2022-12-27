@@ -1,3 +1,9 @@
+.cards {
+  max-width: 1200px;
+  flex-direction: row ;
+  flex-wrap: wrap;
+}
+
 body {
   margin-top: 8px;
   margin-right: 0px;
@@ -49,6 +55,7 @@ footer .boxs {
   flex-direction:row;
   justify-content: center;
   padding: 60px; 
+  padding-right: 145px;
 }
 
 .boxs h2 {

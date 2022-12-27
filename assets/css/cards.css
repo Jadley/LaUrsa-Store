@@ -1,13 +1,52 @@
 .cards {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: 1px 1px 1px;
+  grid-column-gap: 400px;
   list-style: none;
-  flex-grow: 50px;
 }
+
+.card-loja {
+  width: 336px;
+  background-color: #ffffff;
+  margin: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 3px solid #F4A340;
+}
+
+.card-loja:hover {
+  width: 336px;
+  background-color: #f4a340;
+  margin: 15px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 5px;
+  box-sizing: border-box;
+  border: 3px solid #F4A340;
+  cursor: hand;
+}
+
+.card-loja:hover button {
+  background-color: #F5F5F5;
+  border-radius: 30px;
+  border: 1px;
+  width: 120px;
+  height: 45px;
+  margin-left: 108px;
+  margin-bottom: 26px;
+  margin-top: 28px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: bold;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 
 .cards-container {
   display: flex;
-  padding: 62px 150px 91px 150px;
+  align-items: baseline;
+  padding: 62px 200px 91px 287px;
   margin: 20px;
   align-items: center;
 }
@@ -22,30 +61,42 @@
 }
 
 .card-text {
-  padding: 18px 28px 0px 28px;
+  padding: 2px 28px 0px 28px;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.preço {
+  font-size: 18px;
+  font-weight: bold;
+
+}
+
+.desconto {
+  text-decoration: line-through;
+  opacity: 0.5;
 }
 
 main > div > ul > li > img {
   width: 294px;
   height: 287px;
   padding: 20px 21px 20px 21px;
-  // border: 2px solid #f4a340; tentativa de por borda laranja em volta da imagem.
+  /* border: 2px solid #f4a340; tentativa de por borda laranja em volta da imagem*/
 }
 
 main > div > ul > li > button {
   background-color: #f4a340;
-
   border-radius: 30px;
   border: 1px;
   width: 120px;
   height: 45px;
   margin-left: 108px;
-  margin-right: 108px;
   margin-bottom: 26px;
-  margin-top: 41px;
+  margin-top: 28px;
   font-weight: 500;
   font-size: 14px;
   line-height: 17px;
   font-style: bold;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+

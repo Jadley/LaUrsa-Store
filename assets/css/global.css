@@ -79,13 +79,14 @@ nav div img{
 
 nav ul {
   display: flex;
-  flex-wrap: wrap;
+  align-items: center;
   list-style: none;
-  
+  color: #000000;
+  opacity: 0.7;
   justify-content: space-around;
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
-  /* padding-right: 151px; */
+ 
 
 }
 
@@ -94,6 +95,20 @@ nav ul a {
   padding: 17px; 
   text-decoration: none;
   color: #FC8C04;
+}
+
+.pontocarrinho {
+  display: flex;
+  padding-top: 100px;
+}
+
+.traço {
+  display: flex;
+  padding-left: 1210px;
+}
+.traço-loja {
+  display: flex;
+  padding-left: 1292px;
 }
 
 footer {

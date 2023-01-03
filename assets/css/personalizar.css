@@ -1,0 +1,67 @@
+main {
+  justify-content: center;
+}
+
+.fale {
+  color: #F38C0D;
+  font-size: 20px;
+}
+
+.faremos {
+  font-weight: 250;
+  margin-bottom: 20px;
+  margin-top: 0px;
+  font-size: 20px;
+  font-weight: lighter;
+}
+.fale-gente p {
+  font-size: 14px;
+  margin: 10px 0px;
+}
+
+.seu-produto {
+  margin: 5px 0px;
+  font-size: 32px;
+}
+
+.personalize {
+  background-color: #f4a340;
+
+  border-radius: 10px;
+  border: 1px;
+  width: 120px;
+  height: 45px;
+  margin-left: 108px;
+  margin-right: 108px;
+  margin-bottom: 26px;
+  margin-top: 41px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  font-style: bold;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.caneca {
+  width: 492px;
+  height: 429px;
+}
+
+.perso-container {
+  display: flex;
+  flex-flow: row wrap;
+  width: auto;
+  height: auto;
+  margin: auto;
+  font-family: 'Roboto', sans-serif;
+  justify-content: space-around;
+  padding-bottom: 90px;
+}
+
+.fale-gente {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+}
+

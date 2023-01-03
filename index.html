@@ -4,7 +4,6 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/global.css" />
-
     <link rel="stylesheet" href="./assets/css/cards.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -14,21 +13,36 @@
     <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@600&family=Fira+Sans:wght@500&display=swap" rel="stylesheet">
     <title>La Ursa Store</title>
   </head>
+
+
   <body>
     <header>
       <nav>
         <div class="logo"> <img src="./assets/icons/Logo.svg" alt="La Ursa Logo" /></div>
           <ul class="menu">
-          <li>Home</li>
-          <li>Loja</li>
-          <li>Sobre nós</li>
-          <li>Personalizados</li>
-          <li><img src="./assets/icons/cart.svg" alt="Carrinho" /></li>
+          <a href="./index.html">Home</a>
+          <a href="./pages/loja.html" >Loja</a>
+          <a>Sobre nós</a>
+          <a href="./pages/personalize.html">Personalizados</a>
+          <a><img src="./assets/icons/cart.svg" alt="Carrinho" /></a>
         </ul>
       </nav>
     </header>
+
+
     <main>
-      <div>carrossel</div>
+      <div class="carrossel-container">
+        <button class="arrow-left control" aria-label="Previous image"><img src="./assets/img/arts/arrowLeft.svg" alt=""></button>
+        <button class="arrow-right control" aria-label="Next image"><img src="./assets/img/arts/arrowRight.svg" alt=""></button>
+        <div class="galeria-wrapper">
+          <div class="galeria">
+            <img src="./assets/icons/canecas/Caneca-LaUrsa-Bowie.jpeg" alt="" class="item current-item"/>
+            <img src="./assets/icons/canecas/Caneca-Caboclo.jpeg" alt="" class="item current-item"/>
+            <img src="./assets/icons/canecas/Caneca-LaUsa-Frida.jpeg" alt="" class="item current-item"/>
+
+          </div>
+        </div>
+      </div>
       <div class="cards-container">
         <ul class="cards">
           <li class="card">
@@ -69,18 +83,6 @@
             <button>Visualizar</button>
           </li>
 
-          <li class="card">
-            <img src="./assets/icons/canecas/Caneca-Caboclo.jpeg" alt="" />
-            <div class="card-text">
-              What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the
-              printing and typesetting industry. Lorem Ipsum has been the
-              industry's standard dummy text ever since the 1500s, when an
-              unknown printer took a galley of type and scrambled it to make a
-              type specimen book.
-            </div>
-
-            <button>Visualizar</button>
-          </li>
         </ul>
       </div>
     </main>
@@ -119,9 +121,12 @@
           <a href="#">la_ursa_store@loja.com.br</a></li>
       </ul>
     </div>
-      <div class="logoblack"><img src="./assets/img/arts/LogoLaUrsaBlack.svg"> </div>
-      <div class="logowhite"><img src="./assets/img/arts/LogoLaUrsaWhite.svg"> </div> 
+      <div class="logoFooter">
+      <img src="./assets/img/arts/LogoLaUrsaBlack.svg">
+      <img src="./assets/img/arts/LogoLaUrsaWhite.svg"> 
+    </div> 
   </div>
   </footer>
+  <script src="./scripts/script.js"></script>
   </body>
 </html>

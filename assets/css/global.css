@@ -181,7 +181,7 @@ footer .boxs {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding: 60px; 
+  padding: 30px; 
   
 }
 
@@ -210,7 +210,58 @@ footer .boxs {
 
   color: #d9d9d9;
 }
+.redes-sociais{
+  max-width: 1400px;
+  display: flex;
+  justify-content: end;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 30px;
+}
+.suporte1 {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  
+}
+.linkedin{
+  position: fixed;
+  bottom: 95px;
+  right: 54px;
+  width: 20px;
+  height: 20px;
+}
+.pinterest{
+  position: fixed;
+  bottom: 130px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
 
+  border-radius: 100%;
+  border: 0px;
+}
+.youtube{
+  position: fixed;
+  bottom: 165px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  border: 0px;
+}
+.tiktok{
+  position: fixed;
+  bottom: 200px;
+  right: 50px;
+  width: 30px;
+  height: 30px;
+
+  border-radius: 100%;
+  border: 0px;
+}
 .line {
   display: flex;
   justify-content: center ;

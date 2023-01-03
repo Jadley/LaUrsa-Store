@@ -41,7 +41,7 @@
   display: flex;
   margin: auto;
   margin-bottom: 100px;
-  width: auto;
+  max-width: 1100px;
   height: auto;
 }
 

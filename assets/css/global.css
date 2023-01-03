@@ -1,7 +1,56 @@
-.cards {
-  max-width: 1200px;
-  flex-direction: row ;
-  flex-wrap: wrap;
+main {
+  margin-top: 200px;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.carrossel-container {
+  position: relative;
+  padding: 20px;
+  margin: auto;
+  margin-bottom: 100px;
+  max-width: 50rem;
+}
+
+.galeria {  
+  display: flex;
+  flex-flow: row nowrap;
+}
+.galeria-wrapper {
+  overflow-x: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  overflow: hidden;
+} 
+
+.arrow-left, .arrow-right {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: auto;
+  bottom: 0;
+  font-size: 20px;
+  line-height: 250px;
+  width: 40px;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  background-color: #fff;
+}
+
+.arrow-right {
+  position: absolute;
+  top: 0;
+  left: auto;
+  right: 0;
+  bottom: 0;
+}
+
+.item {
+  width: 100%;
+  height: 260px;
+  flex-shrink: 0;
 }
 
 body {
@@ -11,23 +60,24 @@ body {
   margin-bottom: 0px;
 }
 
+
 nav {
   display: flex;
-  height: 80px;
+  height: auto;
   width: 100%;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   flex-wrap: wrap;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 nav div img{
-  padding-left: 160px;
+  /* padding-left: 160px; */
   height: 120px;
 
 }
 
-nav ul{
+nav ul {
   display: flex;
   align-items: center;
   list-style: none;
@@ -36,13 +86,15 @@ nav ul{
   justify-content: space-around;
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
-  padding-right: 175px;
+ 
 
 }
 
-nav ul li {
+nav ul a {
   justify-content: space-between;
   padding: 17px; 
+  text-decoration: none;
+  color: #FC8C04;
 }
 
 .pontocarrinho {
@@ -61,16 +113,16 @@ nav ul li {
 
 footer {
   width: 100%;
-  height: 255px;
+  height: auto;
   background: #F4A340;
 }
 
 footer .boxs {
   display: flex;
-  flex-direction:row;
+  flex-flow: row wrap;
   justify-content: center;
   padding: 60px; 
-  padding-right: 145px;
+  
 }
 
 .boxs h2 {
@@ -108,20 +160,21 @@ footer .boxs {
   padding-right: 66px ;
 }
 
-.logoblack {
+.logoFooter {
   display: flex;
-  width: 80px;
-  height: 88.36px;
-  align-self: center;
-  justify-content: flex-end;
-  margin-left: 250px;
+  padding: 10px 50px;
+  width: auto;
+  height: auto;
+  justify-content: space-between;
 }
 
-.logowhite {
-  display: flex;
-  width: 80px;
-  height: 88.36px;
-  align-self: center;
-  padding-left: 24px;
+.logoFooter img {
+  padding: 0px 20px;
+}
+
+@media (max-width: 820px) {
+  .line {
+    display: none;
+  }
 }
 

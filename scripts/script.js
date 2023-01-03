@@ -27,8 +27,9 @@ controls.forEach(control => {
 
         itens[currentItem].scrollIntoView({
             block:"nearest",
-        behavior: "smooth",
+            behavior: "smooth",
         })
+
         console.log('control', isLeft, currentItem)
     })
 })

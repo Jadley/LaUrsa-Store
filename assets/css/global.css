@@ -1,5 +1,5 @@
 main {
-  margin-top: 200px;
+  margin-top: 107px;
   justify-content: center;
   align-items: center;
 }
@@ -86,7 +86,6 @@ nav ul {
   justify-content: space-around;
   font-family: 'Fira Sans', sans-serif;
   font-size: 20px;
- 
 
 }
 
@@ -94,7 +93,7 @@ nav ul a {
   justify-content: space-between;
   padding: 17px; 
   text-decoration: none;
-  color: #FC8C04;
+  color: #000000;
 }
 
 .pontocarrinho {
@@ -104,12 +103,73 @@ nav ul a {
 
 .traço {
   display: flex;
-  padding-left: 1210px;
 }
+
 .traço-loja {
   display: flex;
-  padding-left: 1292px;
+  width: 100%;
 }
+
+.traço-persona {
+  display: flex;
+  margin-left: 4px;
+}
+
+.negrito {
+  font-weight: bold;
+  color: #F4A340;
+}
+
+.quadros-sobre {
+  display: flex;
+  flex-flow: row wrap;
+  margin: auto;
+  list-style: none;
+  padding-inline-start: 0;
+  justify-content: flex-end;
+
+}
+
+  .quadros {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-left: 269px;
+  max-width: 1373px;
+  height: auto;
+
+}
+
+.credito {
+  display: flex;
+  margin-top: 45px;
+  flex-direction: column;
+  font-family: 'Fira Sans', sans-serif;
+  
+}
+
+.creditos-pessoas {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 311px;
+}
+
+.h1-sobre {
+  display: flex;
+  color: #F4A340;
+  font-size: 25px;
+  justify-content: center;
+  font-family: 'Fira Sans', sans-serif;
+}
+
+.sobrenos {
+  display: flex;
+  margin-bottom: auto;
+  font-family: 'Fira Sans', sans-serif;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
 
 footer {
   width: 100%;

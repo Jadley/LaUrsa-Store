@@ -55,6 +55,11 @@ main {
 .banner {
   display: flex;
   justify-content: center;
+  max-width: 1190px;
+}
+
+.banner img {
+  width: 100%;
 }
 
 body {
